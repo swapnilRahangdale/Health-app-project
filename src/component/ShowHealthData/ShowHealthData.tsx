@@ -17,6 +17,7 @@ const ShowHealthData = () => {
     'hemoglobin',
     'spo2',
     'sugar'
+
     
   ];
   console.log("healthContext", healthData);

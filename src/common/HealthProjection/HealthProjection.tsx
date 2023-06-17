@@ -29,7 +29,7 @@ const HealthProjection: React.FC<Props> = ({ tHead ,healthData}) => {
   const tBodyContent = healthData.map((trValue:any) =>{
 
     const heartRateProjection = trValue.HR>= 120? 'high' :'low'
-    const heartRateProjection1 = trValue.spo2>= 90? 'high' :'low'
+    const heartRateProjection1 = trValue.spo2>= 101? 'high' :trValue.spo2 > 95 ? 'normal' :'low'
     return(
         <tr key = {trValue.id}>
 

@@ -28,7 +28,7 @@ const intialState = [
         sugar:253,
         cal:633,
         hemoglobin:119,
-        spo2: 92,
+        spo2: 105,
         name: 'Pragati'
     },
  ]

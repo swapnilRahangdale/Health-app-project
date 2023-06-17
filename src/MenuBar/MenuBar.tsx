@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../logo/react-logo.png";
+//import logo from "../logo/react-logo.png";
 
 const MenuBar: React.FC<{
   buttonArr: any;
@@ -15,7 +15,7 @@ const MenuBar: React.FC<{
   return (
     <div className="flex justify-between items-center bg-blue-500 p-4">
       <div className="flex space-x-4">
-        <img src={logo} alt="Logo" className="h-8 w-8" />
+        <img />
         {buttonContent}
       </div>
       <button className="text-white">Log In</button>
